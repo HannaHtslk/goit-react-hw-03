@@ -1,0 +1,33 @@
+.icon {
+  margin-right: 10px;
+  color: #6c757d;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Space between elements */
+  align-items: center; /* Align items vertically */
+  padding: 10px;
+  border: 1px solid #e3e3e3; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f8f9fa; /* Light pastel background */
+  transition: all 0.3s; /* Smooth transition for hover effects */
+}
+
+.container:hover {
+  background-color: #e9ecef;
+}
+
+.deleteButton {
+  padding: 5px 10px;
+  background-color: #eecae5;
+  border: none; /* No border */
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.deleteButton:hover {
+  background-color: #c464b2; /* Change color on hover to a darker orange */
+}
