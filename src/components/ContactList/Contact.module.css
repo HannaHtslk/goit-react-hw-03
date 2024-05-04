@@ -20,7 +20,7 @@
 
 .deleteButton {
   padding: 5px 10px;
-  background-color: #eecae5;
+  background-color: lightgray;
   border: none; /* No border */
   border-radius: 5px;
   color: #ffffff;
@@ -29,5 +29,5 @@
 }
 
 .deleteButton:hover {
-  background-color: #c464b2; /* Change color on hover to a darker orange */
+  background-color: black; /* Change color on hover to a darker orange */
 }
