@@ -2,6 +2,7 @@ import ContactForm from "./components/ContactForm/ContactForm";
 import SearchBox from "./components/SearchBox/SearchBox";
 import ContactList from "./components/ContactList/ContactList";
 import { useState, useEffect } from "react";
+import "./App.css";
 
 function App() {
   const [contacts, setContacts] = useState(() => {
@@ -41,7 +42,7 @@ function App() {
 
   return (
     <div>
-      <h1>Phonebook</h1>
+      <h1 className="title">Phonebook</h1>
       <ContactForm onAdd={addContact} />
       <SearchBox value={filter} onFilter={setFilter} />
       <ContactList contacts={visibleContacts} onDelete={deleteContact} />
