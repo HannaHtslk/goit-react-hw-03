@@ -5,13 +5,13 @@
 
 .container {
   display: flex;
-  justify-content: space-between; /* Space between elements */
-  align-items: center; /* Align items vertically */
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
-  border: 1px solid #e3e3e3; /* Light gray border */
-  border-radius: 8px; /* Rounded corners */
-  background-color: #f8f9fa; /* Light pastel background */
-  transition: all 0.3s; /* Smooth transition for hover effects */
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  transition: all 0.3s;
 }
 
 .container:hover {

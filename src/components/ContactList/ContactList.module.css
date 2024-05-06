@@ -13,6 +13,6 @@
 }
 
 .item {
-  width: calc((100% - 60px) / 4);
+  min-width: calc((100% - 60px) / 4);
   height: auto;
 }
